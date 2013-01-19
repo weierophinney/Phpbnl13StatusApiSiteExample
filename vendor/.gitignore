@@ -1,0 +1,5 @@
+bin/
+composer/
+phly/
+zendframework/
+autoload.php

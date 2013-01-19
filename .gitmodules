@@ -1,0 +1,3 @@
+[submodule "vendor/Phpbnl13StatusApi"]
+	path = vendor/Phpbnl13StatusApi
+	url = git://github.com/weierophinney/Phpbnl13StatusApi.git
