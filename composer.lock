@@ -1,5 +1,5 @@
 {
-    "hash": "1e552508902ebbe5f451fa13d69c433b",
+    "hash": "4463a422bb36739d4288159a730165d2",
     "packages": [
         {
             "name": "phly/phly-restfully",
@@ -7,12 +7,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/weierophinney/PhlyRestfully",
-                "reference": "ce0466624854b085bb60fd2174f87f8a0eadace6"
+                "reference": "2b05b2091d7d89aec7ae31e0ada6fb14ac87293d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/weierophinney/PhlyRestfully/archive/ce0466624854b085bb60fd2174f87f8a0eadace6.zip",
-                "reference": "ce0466624854b085bb60fd2174f87f8a0eadace6",
+                "url": "https://github.com/weierophinney/PhlyRestfully/archive/2b05b2091d7d89aec7ae31e0ada6fb14ac87293d.zip",
+                "reference": "2b05b2091d7d89aec7ae31e0ada6fb14ac87293d",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
                 "zendframework/zend-view": "2.1.*",
                 "zendframework/zend-stdlib": "2.1.*"
             },
-            "time": "2013-01-18 16:41:58",
+            "time": "2013-01-21 15:18:53",
             "type": "library",
             "autoload": {
                 "psr-0": {
