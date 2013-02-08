@@ -21,9 +21,15 @@
         }
     ],
     "homepage": "http://conference.phpbenelux.eu/2013/sessions/",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "file:///home/matthew/git/modules/PhlyRestfully"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.1.*@dev",
+        "zendframework/zendframework": "2.1.*",
         "phly/phly-restfully": "dev-master@dev",
         "phly/phly-simple-page": "dev-master@dev"
     }

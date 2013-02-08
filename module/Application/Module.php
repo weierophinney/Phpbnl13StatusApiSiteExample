@@ -15,8 +15,8 @@ class Module
         $moduleRouteListener = new ModuleRouteListener();
         $moduleRouteListener->attach($eventManager);
 
-        $plugins  = $e->getApplication()->getServiceManager()->get('ControllerPluginManager');
-        $plugins->get('apiproblemresult')->setDetailIncludesStackTrace(true);
+        $services = $e->getApplication()->getServiceManager();
+        $services->get('PhlyRestfully\JsonRenderer')->setDisplayExceptions(true);
     }
 
     public function getConfig()
