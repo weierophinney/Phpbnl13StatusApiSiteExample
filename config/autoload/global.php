@@ -24,4 +24,7 @@ return array(
             'Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',
         ),
     ),
+    'view_manager' => array(
+        'display_exceptions' => false, // set to true in a local file in order to debug
+    ),
 );

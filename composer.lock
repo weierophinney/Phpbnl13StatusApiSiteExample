@@ -1,25 +1,31 @@
 {
-    "hash": "56115f9ef745114d2372093d831a5269",
+    "hash": "da3a9c481337cafb57cc3df74ecf8474",
     "packages": [
         {
             "name": "phly/phly-restfully",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "file:///home/matthew/git/modules/PhlyRestfully",
-                "reference": "95a005b6077d054f8b5e3e0989848f96c0d02f15"
+                "url": "https://github.com/weierophinney/PhlyRestfully",
+                "reference": "f0ab3a782bf8092f9b4a4bfd7db2db6c14bc0c07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/f0ab3a782bf8092f9b4a4bfd7db2db6c14bc0c07",
+                "reference": "f0ab3a782bf8092f9b4a4bfd7db2db6c14bc0c07",
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "zendframework/zend-eventmanager": "2.1.*",
-                "zendframework/zend-json": "2.1.*",
-                "zendframework/zend-loader": "2.1.*",
-                "zendframework/zend-mvc": "2.1.*",
-                "zendframework/zend-paginator": "2.1.*",
-                "zendframework/zend-stdlib": "2.1.*",
-                "zendframework/zend-view": "2.1.*"
+                "zendframework/zend-eventmanager": "dev-master",
+                "zendframework/zend-json": "dev-master",
+                "zendframework/zend-loader": "dev-master",
+                "zendframework/zend-mvc": "dev-master",
+                "zendframework/zend-paginator": "dev-master",
+                "zendframework/zend-stdlib": "dev-master",
+                "zendframework/zend-view": "dev-master"
             },
-            "time": "2013-02-08 22:01:17",
+            "time": "2013-02-10 15:14:07",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -30,6 +36,7 @@
                     "./"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-2-Clause"
             ],
@@ -104,16 +111,16 @@
         },
         {
             "name": "zendframework/zendframework",
-            "version": "2.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://github.com/zendframework/zf2.git",
-                "reference": "release-2.1.1"
+                "reference": "d3d01e29b913f024114d9e1c5f7135149fec4c2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/release-2.1.1",
-                "reference": "release-2.1.1",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/d3d01e29b913f024114d9e1c5f7135149fec4c2f",
+                "reference": "d3d01e29b913f024114d9e1c5f7135149fec4c2f",
                 "shasum": ""
             },
             "require": {
@@ -182,7 +189,7 @@
                 "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
                 "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
             },
-            "time": "2013-02-06 21:23:43",
+            "time": "2013-02-08 20:59:47",
             "bin": [
                 "bin/classmap_generator.php"
             ],
@@ -219,7 +226,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "phly/phly-restfully": 20,
         "phly/phly-simple-page": 20

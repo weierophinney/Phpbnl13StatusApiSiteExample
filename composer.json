@@ -21,6 +21,7 @@
         }
     ],
     "homepage": "http://conference.phpbenelux.eu/2013/sessions/",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.1.*",
