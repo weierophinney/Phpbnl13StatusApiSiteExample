@@ -7,12 +7,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/weierophinney/PhlyRestfully",
-                "reference": "f0ab3a782bf8092f9b4a4bfd7db2db6c14bc0c07"
+                "reference": "07bfc16e447c76210482d6cb976f26e28ad56937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/f0ab3a782bf8092f9b4a4bfd7db2db6c14bc0c07",
-                "reference": "f0ab3a782bf8092f9b4a4bfd7db2db6c14bc0c07",
+                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/07bfc16e447c76210482d6cb976f26e28ad56937",
+                "reference": "07bfc16e447c76210482d6cb976f26e28ad56937",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
                 "zendframework/zend-stdlib": "dev-master",
                 "zendframework/zend-view": "dev-master"
             },
-            "time": "2013-02-10 15:14:07",
+            "time": "2013-02-10 23:36:06",
             "type": "library",
             "autoload": {
                 "psr-0": {
