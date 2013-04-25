@@ -21,8 +21,7 @@ Installation
 
 - Use the sample database
 
-    cp data/status.db.example data/status.db
-    chmod a+rwX data/status.db
+    cp data/status.db.example data/status.db && chmod a+rwX data/status.db
 
 Web Server
 ----------
