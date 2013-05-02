@@ -1,5 +1,9 @@
 {
-    "hash": "da3a9c481337cafb57cc3df74ecf8474",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "3f3c7e8c694b34bbf5131510d082e65b",
     "packages": [
         {
             "name": "phly/phly-restfully",
@@ -7,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/weierophinney/PhlyRestfully.git",
-                "reference": "6020ae72069d586988f10f425cc1e285af7c3b46"
+                "reference": "de69aa96f27a8007a911c237bc7f169fac57ec44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/6020ae72069d586988f10f425cc1e285af7c3b46",
-                "reference": "6020ae72069d586988f10f425cc1e285af7c3b46",
+                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/de69aa96f27a8007a911c237bc7f169fac57ec44",
+                "reference": "de69aa96f27a8007a911c237bc7f169fac57ec44",
                 "shasum": ""
             },
             "require": {
@@ -59,20 +63,20 @@
                 "zend",
                 "zf2"
             ],
-            "time": "2013-03-29 17:26:52"
+            "time": "2013-05-01 11:50:28"
         },
         {
             "name": "phly/phly-simple-page",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/weierophinney/PhlySimplePage",
-                "reference": "3e1c324d81a9c679b579b1892a05a856ce190636"
+                "url": "https://github.com/weierophinney/PhlySimplePage.git",
+                "reference": "3840a24c66f51c4a7ce451d5f76f6298776ee480"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/weierophinney/PhlySimplePage/zipball/3e1c324d81a9c679b579b1892a05a856ce190636",
-                "reference": "3e1c324d81a9c679b579b1892a05a856ce190636",
+                "url": "https://api.github.com/repos/weierophinney/PhlySimplePage/zipball/3840a24c66f51c4a7ce451d5f76f6298776ee480",
+                "reference": "3840a24c66f51c4a7ce451d5f76f6298776ee480",
                 "shasum": ""
             },
             "require": {
@@ -112,7 +116,7 @@
                 "zend",
                 "zf2"
             ],
-            "time": "2012-12-15 20:59:15"
+            "time": "2013-04-29 13:00:12"
         },
         {
             "name": "zendframework/zendframework",
@@ -120,12 +124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "5242d9870d4074e76d65b74e77d3303c51f544b6"
+                "reference": "a7e04c20dab38afcb928cfc5b5f9d3d5ae9b1068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/5242d9870d4074e76d65b74e77d3303c51f544b6",
-                "reference": "5242d9870d4074e76d65b74e77d3303c51f544b6",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/a7e04c20dab38afcb928cfc5b5f9d3d5ae9b1068",
+                "reference": "a7e04c20dab38afcb928cfc5b5f9d3d5ae9b1068",
                 "shasum": ""
             },
             "require": {
@@ -184,15 +188,17 @@
                 "zendframework/zend-xmlrpc": "self.version"
             },
             "require-dev": {
-                "doctrine/common": ">=2.1",
+                "doctrine/annotations": ">=1.0",
                 "ircmaxell/random-lib": "dev-master",
                 "ircmaxell/security-lib": "dev-master",
+                "ocramius/proxy-manager": "0.3.*",
                 "phpunit/phpunit": "3.7.*"
             },
             "suggest": {
-                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
-                "ext-intl": "ext/intl for i18n features",
+                "doctrine/annotations": "Doctrine Annotations >=1.0 for annotation features",
+                "ext-intl": "ext/intl for i18n features (included in default builds of PHP)",
                 "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable",
+                "ocramius/proxy-manager": "ProxyManager to handle lazy initialization of services",
                 "pecl-weakref": "Implementation of weak references for Zend\\Stdlib\\CallbackHandler",
                 "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
                 "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
@@ -203,8 +209,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev",
-                    "dev-develop": "2.2-dev"
+                    "dev-master": "2.2-dev",
+                    "dev-develop": "2.3-dev"
                 }
             },
             "autoload": {
@@ -223,7 +229,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2013-03-29 18:04:12"
+            "time": "2013-05-01 21:48:04"
         }
     ],
     "packages-dev": [

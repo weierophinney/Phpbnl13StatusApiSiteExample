@@ -24,8 +24,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.1.*",
-        "phly/phly-restfully": "dev-master@dev",
-        "phly/phly-simple-page": "dev-master@dev"
+        "zendframework/zendframework": "2.2.*",
+        "phly/phly-restfully": "dev-master",
+        "phly/phly-simple-page": "dev-master"
     }
 }
