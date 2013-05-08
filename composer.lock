@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/weierophinney/PhlyRestfully.git",
-                "reference": "de69aa96f27a8007a911c237bc7f169fac57ec44"
+                "reference": "c526488385029c90f03e7327f238ecb5d1a57de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/de69aa96f27a8007a911c237bc7f169fac57ec44",
-                "reference": "de69aa96f27a8007a911c237bc7f169fac57ec44",
+                "url": "https://api.github.com/repos/weierophinney/PhlyRestfully/zipball/c526488385029c90f03e7327f238ecb5d1a57de3",
+                "reference": "c526488385029c90f03e7327f238ecb5d1a57de3",
                 "shasum": ""
             },
             "require": {
@@ -63,7 +63,7 @@
                 "zend",
                 "zf2"
             ],
-            "time": "2013-05-01 11:50:28"
+            "time": "2013-05-07 15:46:18"
         },
         {
             "name": "phly/phly-simple-page",
@@ -124,12 +124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zf2.git",
-                "reference": "a7e04c20dab38afcb928cfc5b5f9d3d5ae9b1068"
+                "reference": "6022f490695b1c835070d9e5a81b45dc20b4a51c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zf2/zipball/a7e04c20dab38afcb928cfc5b5f9d3d5ae9b1068",
-                "reference": "a7e04c20dab38afcb928cfc5b5f9d3d5ae9b1068",
+                "url": "https://api.github.com/repos/zendframework/zf2/zipball/6022f490695b1c835070d9e5a81b45dc20b4a51c",
+                "reference": "6022f490695b1c835070d9e5a81b45dc20b4a51c",
                 "shasum": ""
             },
             "require": {
@@ -199,7 +199,6 @@
                 "ext-intl": "ext/intl for i18n features (included in default builds of PHP)",
                 "ircmaxell/random-lib": "Fallback random byte generator for Zend\\Math\\Rand if OpenSSL/Mcrypt extensions are unavailable",
                 "ocramius/proxy-manager": "ProxyManager to handle lazy initialization of services",
-                "pecl-weakref": "Implementation of weak references for Zend\\Stdlib\\CallbackHandler",
                 "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
                 "zendframework/zendservice-recaptcha": "ZendService\\ReCaptcha for rendering ReCaptchas in Zend\\Captcha and/or Zend\\Form"
             },
@@ -229,7 +228,7 @@
                 "framework",
                 "zf2"
             ],
-            "time": "2013-05-01 21:48:04"
+            "time": "2013-05-07 20:46:29"
         }
     ],
     "packages-dev": [
